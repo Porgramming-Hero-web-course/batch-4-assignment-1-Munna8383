@@ -1,7 +1,7 @@
 ## -----Typescript-----
 Typescript is a programming language developed by Microsoft. It is used in JavaScript to define types. It is always used in development mode to visualise the error while writing the code.
 
-## -----Typescript Typescript-----
+## -----Typescript Types-----
 There are many types of typescripts like string, boolean, union, intersection, null, never, unknown etc. Today we will see about Union and Intersection.
 
 ## -----Union And Its Benefits-----
