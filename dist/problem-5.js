@@ -9,5 +9,5 @@ const getProperty = (obj, value) => {
     const result = obj[value];
     return result;
 };
-//  const person = { name: "Alice", age: 30 };
-//  console.log(getProperty(person, "name"));
+// const person = { name: "Alice", age: 30 };
+// console.log(getProperty(person, "name"));
