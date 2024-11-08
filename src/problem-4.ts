@@ -32,14 +32,14 @@ type Rectangle = {
 type CircleOrRectangle = Circle | Rectangle
 
 
-const calculateShapeArea =(obj:CircleOrRectangle)=>{
+const calculateShapeArea =(obj:CircleOrRectangle):number=>{
 
     if(obj.shape==="circle"){
         const output =parseFloat(( Math.PI*obj.radius*obj.radius).toFixed(2))
         return output
-    }else if(obj.shape==="rectangle"){
-        return obj.height*obj.width
     }
+
+    return obj.height*obj.width
 
 }
 
@@ -52,7 +52,7 @@ const calculateShapeArea =(obj:CircleOrRectangle)=>{
 // });
 
 
-// console.log(circleArea)
+// // console.log(circleArea)
 // console.log(rectangleArea)
 
 

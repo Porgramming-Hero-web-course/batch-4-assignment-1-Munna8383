@@ -17,7 +17,7 @@ interface Profile{
     email:string
 }
 
-const updateProfile = (myProfile:Profile,obj:Partial<Profile>)=>{
+const updateProfile = (myProfile:Profile,obj:Partial<Profile>):Profile=>{
 
     const result = {...myProfile,...obj}
 
